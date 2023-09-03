@@ -16,6 +16,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { MessagesComponent } from './messages/messages.component';
+import { MatListModule } from '@angular/material/list';
+import { MatInputModule } from '@angular/material/input';
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -37,6 +40,9 @@ import { MessagesComponent } from './messages/messages.component';
     FlexLayoutModule,
     MatTooltipModule,
     MatCardModule,
+    MatListModule,
+    MatInputModule,
+    MatTableModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
