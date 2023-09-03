@@ -1,0 +1,8 @@
+.heroes {
+  cursor: pointer;
+}
+
+.selected {
+  background-color: #222;
+  color: #FFF;
+}
