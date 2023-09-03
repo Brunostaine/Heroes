@@ -2,3 +2,7 @@
 .title {
   padding: 8px;
 }
+
+.pointer {
+  cursor: pointer;
+}
