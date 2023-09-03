@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { NgModule } from '@angular/core';
+import { NgModule, Optional, SkipSelf } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MaterialModule } from '../material/material.module';
 import { MessagesComponent } from './components/messages/messages.component';
@@ -15,4 +15,13 @@ const MODULES = [FlexLayoutModule, MaterialModule, RouterModule];
   imports: [CommonModule, MODULES],
   exports: [MODULES, COMPONENTS],
 })
-export class CoreModule {}
+export class CoreModule {
+  // Estou dizendo que o coreModule só pode ser importado uma vez no sistema.
+  constructor(@Optional() @SkipSelf() parentModule?: CoreModule) {
+    if (parentModule) {
+      throw new Error(
+        'CoreModule já foi carregado em algum modulo, verifique se o import está somente no AppModule.'
+      );
+    }
+  }
+}
