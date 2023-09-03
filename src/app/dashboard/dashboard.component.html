@@ -1,0 +1,13 @@
+<h2>Dashboard</h2>
+
+<div
+  class="dashboard-container"
+  fxLayout="row"
+  fxLayout.xs="column"
+  fxLayoutGap="12px"
+  fxLayoutAlign="space-between"
+>
+  <mat-card *ngFor="let hero of heroes">
+    <mat-card-title class="title">{{ hero.name }}</mat-card-title>
+  </mat-card>
+</div>
