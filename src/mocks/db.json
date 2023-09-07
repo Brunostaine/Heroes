@@ -2,7 +2,7 @@
   "heroes": [
     {
       "id": 1,
-      "name": "Wolverine"
+      "name": "Wolverine5"
     },
     {
       "id": 2,
@@ -39,6 +39,14 @@
     {
       "id": 10,
       "name": "Capitão América"
+    },
+    {
+      "name": "Novo Hero",
+      "id": 11
+    },
+    {
+      "name": "Novo s",
+      "id": 12
     }
   ]
 }
