@@ -13,7 +13,6 @@ import { CoreModule } from './core/core.module';
     // @angular
     BrowserModule,
     BrowserAnimationsModule,
-    FormsModule,
     HttpClientModule,
 
     // app

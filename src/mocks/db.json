@@ -2,7 +2,7 @@
   "heroes": [
     {
       "id": 1,
-      "name": "Wolverine5"
+      "name": "Wolverine"
     },
     {
       "id": 2,
@@ -45,8 +45,16 @@
       "id": 11
     },
     {
-      "name": "Novo s",
-      "id": 12
+      "id": 12,
+      "name": "Novo"
+    },
+    {
+      "name": "The Flash",
+      "id": 13
+    },
+    {
+      "name": "novo hero",
+      "id": 14
     }
   ]
 }
