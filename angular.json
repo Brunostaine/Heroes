@@ -70,7 +70,8 @@
               "browserTarget": "app-heroes:build:production"
             },
             "development": {
-              "browserTarget": "app-heroes:build:development"
+              "browserTarget": "app-heroes:build:development",
+              "proxyConfig": "src/proxy.config.json"
             }
           },
           "defaultConfiguration": "development"

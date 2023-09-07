@@ -8,3 +8,4 @@
 
 - Angular Material: ng add @angular/material
 - Flex Layout: npm i @angular/flex-layout
+- Json server: npm i json-server --save--dev
