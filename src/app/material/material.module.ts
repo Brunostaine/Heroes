@@ -11,6 +11,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatDialogModule } from '@angular/material/dialog';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
 
 const MODULES = [
   MatToolbarModule,
@@ -25,6 +26,7 @@ const MODULES = [
   MatProgressSpinnerModule,
   MatSnackBarModule,
   MatDialogModule,
+  MatAutocompleteModule,
 ];
 
 @NgModule({
