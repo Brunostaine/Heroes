@@ -22,7 +22,6 @@ export class LoginComponent {
   ) {}
 
   onSubmit(): void {
-    console.log(this.form.value);
     if (this.form.valid) {
       this.authService.login(this.form.value);
     }

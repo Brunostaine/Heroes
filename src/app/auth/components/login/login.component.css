@@ -1,7 +1,31 @@
 :host {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 72px 0;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  margin: 8px;
+}
+
+.btn {
+  margin-top: 16px;
+  width: 100%;
+}
+
+.forgot {
+  width: 100%;
+
 }
 
 
