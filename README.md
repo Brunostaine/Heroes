@@ -9,3 +9,10 @@
 - Angular Material: ng add @angular/material
 - Flex Layout: npm i @angular/flex-layout
 - Json server: npm i json-server --save--dev
+- Compodoc: ng add @compodoc/compodoc
+
+### Documentation
+
+- Para criar a documentação: npm run compodoc:build
+- Para rodar o compodoc: npm run compodoc:serve
+- Para rodar e abrir server o compodoc: npm run compodoc:build-and-server
